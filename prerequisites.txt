@@ -1,0 +1,48 @@
+KiteKeep Windows 11 Development Prerequisites
+Last reviewed: 2026-09-17
+
+HOST
+- Windows 11 x64
+- Administrator access for initial tool installation and environment configuration
+- Windows Package Manager (winget)
+- Hardware virtualization enabled in BIOS/UEFI for Android Emulator acceleration
+- Recommended: at least 30 GB free disk space for Android Studio, SDKs, system images, caches, and builds
+- Internet access during initial setup
+
+PHYSICAL DEVICE TESTING
+- Android phone or tablet with Android 9 / API 28 or newer
+- USB data cable
+- Developer options and USB debugging enabled when physical-device testing begins
+- Device Owner testing may require a factory-reset test device depending on provisioning state
+
+AUTOMATICALLY INSTALLED OR CONFIGURED BY scripts/setup-dev-environment.ps1
+- Git for Windows
+- Android Studio stable
+- Java runtime suitable for Gradle builds. Android Studio JBR is preferred; JDK 17 fallback is installed if required
+- Android SDK Command-line Tools
+- Android SDK Platform Tools / ADB
+- Android Emulator
+- Android SDK Platform 28
+- Android SDK Platform 31
+- Android SDK Platform 34
+- Android SDK Platform 36
+- Android Build Tools 36.0.0
+- Android 16 / API 36 Google APIs x86_64 system image
+- Primary API 36 phone emulator
+- Primary API 36 tablet emulator when a compatible tablet hardware profile is available
+- User environment variables required by Android command-line tooling
+
+ANDROID BASELINE
+- minSdk: 28
+- compileSdk: 36
+- targetSdk: 36
+- Build Tools baseline: 36.0.0
+- Application ID: com.countryboysplay.kitekeep
+
+NOT INSTALLED BY DEFAULT
+- Android NDK
+- CMake
+- Game engines
+- Cloud backends
+
+Those tools are intentionally excluded until a future stage requires them.

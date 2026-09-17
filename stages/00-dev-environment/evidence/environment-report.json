@@ -1,0 +1,91 @@
+﻿{
+    "generated_utc":  "2026-09-17T16:04:25.7456584Z",
+    "stage":  "00-dev-environment",
+    "required_passed":  true,
+    "checks":  [
+                   {
+                       "name":  "Git",
+                       "passed":  true,
+                       "required":  true,
+                       "detail":  "command succeeded"
+                   },
+                   {
+                       "name":  "Android Studio",
+                       "passed":  true,
+                       "required":  true,
+                       "detail":  "standard installation required"
+                   },
+                   {
+                       "name":  "Java",
+                       "passed":  true,
+                       "required":  true,
+                       "detail":  "working Java 17+ required"
+                   },
+                   {
+                       "name":  "Android SDK manager",
+                       "passed":  true,
+                       "required":  true,
+                       "detail":  "command succeeded"
+                   },
+                   {
+                       "name":  "ADB",
+                       "passed":  true,
+                       "required":  true,
+                       "detail":  "command succeeded"
+                   },
+                   {
+                       "name":  "Android Emulator",
+                       "passed":  true,
+                       "required":  true,
+                       "detail":  "command succeeded"
+                   },
+                   {
+                       "name":  "Android platform API 28",
+                       "passed":  true,
+                       "required":  true,
+                       "detail":  "platform android.jar required"
+                   },
+                   {
+                       "name":  "Android platform API 31",
+                       "passed":  true,
+                       "required":  true,
+                       "detail":  "platform android.jar required"
+                   },
+                   {
+                       "name":  "Android platform API 34",
+                       "passed":  true,
+                       "required":  true,
+                       "detail":  "platform android.jar required"
+                   },
+                   {
+                       "name":  "Android platform API 36",
+                       "passed":  true,
+                       "required":  true,
+                       "detail":  "platform android.jar required"
+                   },
+                   {
+                       "name":  "Build Tools 36.0.0",
+                       "passed":  true,
+                       "required":  true,
+                       "detail":  "command succeeded"
+                   },
+                   {
+                       "name":  "Phone AVD",
+                       "passed":  true,
+                       "required":  true,
+                       "detail":  "API 36 phone AVD required; document any host limitation in HANDOFF.md"
+                   },
+                   {
+                       "name":  "Tablet AVD",
+                       "passed":  true,
+                       "required":  false,
+                       "detail":  "optional tablet AVD"
+                   },
+                   {
+                       "name":  "Hardware virtualization",
+                       "passed":  false,
+                       "required":  false,
+                       "detail":  "firmware virtualization capability"
+                   }
+               ]
+}

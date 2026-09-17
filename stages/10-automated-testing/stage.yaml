@@ -1,0 +1,27 @@
+stage: 10-automated-testing
+status: not_started
+depends_on:
+  - 09-local-data-privacy
+implementation_agent_default: claude-code
+review_agent_default: codex
+reviewer_must_differ: true
+personas:
+  - agents/active/testing-test-automation-engineer.md
+  - agents/active/testing-evidence-collector.md
+  - agents/active/testing-test-results-analyzer.md
+  - agents/active/testing-reality-checker.md
+read:
+  - src/
+  - docs/architecture/
+  - docs/security/
+modify:
+  - src/**/src/test/
+  - src/**/src/androidTest/
+  - scripts/test/
+  - stages/10-automated-testing/
+  - .github/workflows/ci.yml
+forbidden:
+  - feature redesign unrelated to testability
+  - weakening security assertions to make tests pass
+validation_commands:
+  - cd src; .\gradlew.bat test lint connectedCheck

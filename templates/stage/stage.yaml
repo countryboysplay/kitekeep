@@ -1,0 +1,13 @@
+stage: STAGE_NAME
+status: not_started
+depends_on: []
+implementation_agent_default: claude-code
+review_agent_default: codex
+reviewer_must_differ: true
+personas: []
+read: []
+modify: []
+forbidden:
+  - unrelated stages
+  - unrelated source modules
+validation_commands: []

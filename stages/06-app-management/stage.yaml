@@ -1,0 +1,27 @@
+stage: 06-app-management
+status: not_started
+depends_on:
+  - 05-child-lockdown
+implementation_agent_default: claude-code
+review_agent_default: codex
+reviewer_must_differ: true
+personas:
+  - agents/active/engineering-mobile-app-builder.md
+  - agents/active/security-appsec-engineer.md
+  - agents/active/design-ux-architect.md
+  - agents/active/engineering-code-reviewer.md
+read:
+  - src/feature/device-policy/
+  - src/feature/child-home/
+  - src/feature/app-management/
+modify:
+  - src/feature/app-management/
+  - src/feature/child-home/
+  - src/feature/device-policy/
+  - stages/06-app-management/
+forbidden:
+  - automatic trust of every installed package
+  - exposing system settings packages by default
+  - future game implementation
+validation_commands:
+  - cd src; .\gradlew.bat test lint

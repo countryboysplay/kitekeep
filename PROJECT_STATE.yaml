@@ -1,0 +1,11 @@
+project: KiteKeep
+repository: countryboysplay/kitekeep
+application_id: com.countryboysplay.kitekeep
+active_stage: 00-dev-environment
+active_branch: stage/00-dev-environment
+status: in_progress
+implementation_agent_default: claude-code
+review_agent_default: codex
+manual_merge_required: true
+completed_stages: []
+next_stage: 01-project-foundation

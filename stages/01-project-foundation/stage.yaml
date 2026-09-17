@@ -1,0 +1,30 @@
+stage: 01-project-foundation
+status: not_started
+depends_on:
+  - 00-dev-environment
+implementation_agent_default: claude-code
+review_agent_default: codex
+reviewer_must_differ: true
+personas:
+  - agents/active/engineering-mobile-app-builder.md
+  - agents/active/engineering-software-architect.md
+  - agents/active/engineering-git-workflow-master.md
+  - agents/active/engineering-code-reviewer.md
+read:
+  - docs/architecture/ADR-001-android-sdk-baseline.md
+  - docs/architecture/ADR-002-one-source-staged-context.md
+  - src/README.md
+  - .github/workflows/ci.yml
+modify:
+  - src/
+  - docs/architecture/
+  - stages/01-project-foundation/
+  - .github/workflows/ci.yml
+  - PROJECT_STATE.yaml
+forbidden:
+  - launcher security implementation
+  - parent PIN implementation
+  - Device Owner policy implementation
+  - future game code
+validation_commands:
+  - cd src; .\gradlew.bat test lint

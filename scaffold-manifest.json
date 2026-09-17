@@ -1,0 +1,822 @@
+[
+  {
+    "path": ".editorconfig",
+    "size": 225
+  },
+  {
+    "path": ".github/PULL_REQUEST_TEMPLATE.md",
+    "size": 851
+  },
+  {
+    "path": ".github/workflows/ci.yml",
+    "size": 1349
+  },
+  {
+    "path": ".gitignore",
+    "size": 504
+  },
+  {
+    "path": "AGENTS.md",
+    "size": 2657
+  },
+  {
+    "path": "CLAUDE.md",
+    "size": 358
+  },
+  {
+    "path": "CODEX.md",
+    "size": 352
+  },
+  {
+    "path": "PROJECT_STATE.yaml",
+    "size": 346
+  },
+  {
+    "path": "README.md",
+    "size": 1715
+  },
+  {
+    "path": "agents/README.md",
+    "size": 756
+  },
+  {
+    "path": "agents/active/academic-psychologist.md",
+    "size": 7833
+  },
+  {
+    "path": "agents/active/agents-orchestrator.md",
+    "size": 15725
+  },
+  {
+    "path": "agents/active/data-privacy-officer.md",
+    "size": 22433
+  },
+  {
+    "path": "agents/active/design-inclusive-visuals-specialist.md",
+    "size": 6799
+  },
+  {
+    "path": "agents/active/design-ui-designer.md",
+    "size": 13339
+  },
+  {
+    "path": "agents/active/design-ux-architect.md",
+    "size": 15758
+  },
+  {
+    "path": "agents/active/engineering-code-reviewer.md",
+    "size": 3076
+  },
+  {
+    "path": "agents/active/engineering-developer-tooling-engineer.md",
+    "size": 13041
+  },
+  {
+    "path": "agents/active/engineering-devops-automator.md",
+    "size": 12879
+  },
+  {
+    "path": "agents/active/engineering-git-workflow-master.md",
+    "size": 3342
+  },
+  {
+    "path": "agents/active/engineering-identity-access-engineer.md",
+    "size": 14866
+  },
+  {
+    "path": "agents/active/engineering-minimal-change-engineer.md",
+    "size": 11231
+  },
+  {
+    "path": "agents/active/engineering-mobile-app-builder.md",
+    "size": 17035
+  },
+  {
+    "path": "agents/active/engineering-mobile-release-engineer.md",
+    "size": 13642
+  },
+  {
+    "path": "agents/active/engineering-privacy-engineer.md",
+    "size": 14229
+  },
+  {
+    "path": "agents/active/engineering-software-architect.md",
+    "size": 6485
+  },
+  {
+    "path": "agents/active/engineering-sre.md",
+    "size": 3882
+  },
+  {
+    "path": "agents/active/engineering-technical-writer.md",
+    "size": 14210
+  },
+  {
+    "path": "agents/active/game-designer.md",
+    "size": 8433
+  },
+  {
+    "path": "agents/active/product-manager.md",
+    "size": 22687
+  },
+  {
+    "path": "agents/active/security-ai-generated-code-auditor.md",
+    "size": 17126
+  },
+  {
+    "path": "agents/active/security-appsec-engineer.md",
+    "size": 25789
+  },
+  {
+    "path": "agents/active/security-architect.md",
+    "size": 18029
+  },
+  {
+    "path": "agents/active/security-incident-responder.md",
+    "size": 24298
+  },
+  {
+    "path": "agents/active/security-penetration-tester.md",
+    "size": 21436
+  },
+  {
+    "path": "agents/active/security-secrets-credential-engineer.md",
+    "size": 13267
+  },
+  {
+    "path": "agents/active/terminal-integration-specialist.md",
+    "size": 4121
+  },
+  {
+    "path": "agents/active/testing-evidence-collector.md",
+    "size": 8354
+  },
+  {
+    "path": "agents/active/testing-reality-checker.md",
+    "size": 10854
+  },
+  {
+    "path": "agents/active/testing-test-automation-engineer.md",
+    "size": 12254
+  },
+  {
+    "path": "agents/active/testing-test-results-analyzer.md",
+    "size": 14602
+  },
+  {
+    "path": "agents/source/agents.zip",
+    "size": 1642393
+  },
+  {
+    "path": "config/examples/environment.example",
+    "size": 133
+  },
+  {
+    "path": "config/examples/local.properties.example",
+    "size": 137
+  },
+  {
+    "path": "config/examples/signing.properties.example",
+    "size": 171
+  },
+  {
+    "path": "docs/architecture/ADR-001-android-sdk-baseline.md",
+    "size": 665
+  },
+  {
+    "path": "docs/architecture/ADR-002-one-source-staged-context.md",
+    "size": 576
+  },
+  {
+    "path": "docs/architecture/ADR-003-agent-workflow.md",
+    "size": 442
+  },
+  {
+    "path": "docs/architecture/ADR-004-security-model.md",
+    "size": 755
+  },
+  {
+    "path": "docs/architecture/repository-layout.md",
+    "size": 1168
+  },
+  {
+    "path": "docs/product/launcher-v1.md",
+    "size": 793
+  },
+  {
+    "path": "docs/research/README.md",
+    "size": 340
+  },
+  {
+    "path": "docs/security/README.md",
+    "size": 296
+  },
+  {
+    "path": "prerequisites.txt",
+    "size": 1714
+  },
+  {
+    "path": "scripts/extract-agent-persona.ps1",
+    "size": 828
+  },
+  {
+    "path": "scripts/setup-dev-environment.ps1",
+    "size": 7727
+  },
+  {
+    "path": "scripts/stage/KiteKeep.Stage.psm1",
+    "size": 1637
+  },
+  {
+    "path": "scripts/stage/complete-stage.ps1",
+    "size": 1224
+  },
+  {
+    "path": "scripts/stage/mark-stage-ready.ps1",
+    "size": 801
+  },
+  {
+    "path": "scripts/stage/new-stage-from-template.ps1",
+    "size": 552
+  },
+  {
+    "path": "scripts/stage/start-stage.ps1",
+    "size": 1210
+  },
+  {
+    "path": "scripts/stage/verify-stage.ps1",
+    "size": 989
+  },
+  {
+    "path": "scripts/verify-dev-environment.ps1",
+    "size": 4052
+  },
+  {
+    "path": "src/README.md",
+    "size": 501
+  },
+  {
+    "path": "stages/00-dev-environment/context/ACCEPTANCE.md",
+    "size": 574
+  },
+  {
+    "path": "stages/00-dev-environment/context/AGENT.md",
+    "size": 488
+  },
+  {
+    "path": "stages/00-dev-environment/context/FILES.md",
+    "size": 420
+  },
+  {
+    "path": "stages/00-dev-environment/context/HANDOFF.md",
+    "size": 269
+  },
+  {
+    "path": "stages/00-dev-environment/context/SCOPE.md",
+    "size": 243
+  },
+  {
+    "path": "stages/00-dev-environment/context/TASK.md",
+    "size": 208
+  },
+  {
+    "path": "stages/00-dev-environment/evidence/logs/.gitkeep",
+    "size": 0
+  },
+  {
+    "path": "stages/00-dev-environment/evidence/security-checks.md",
+    "size": 28
+  },
+  {
+    "path": "stages/00-dev-environment/evidence/test-results.md",
+    "size": 25
+  },
+  {
+    "path": "stages/00-dev-environment/stage.yaml",
+    "size": 878
+  },
+  {
+    "path": "stages/01-project-foundation/context/ACCEPTANCE.md",
+    "size": 398
+  },
+  {
+    "path": "stages/01-project-foundation/context/AGENT.md",
+    "size": 528
+  },
+  {
+    "path": "stages/01-project-foundation/context/FILES.md",
+    "size": 435
+  },
+  {
+    "path": "stages/01-project-foundation/context/HANDOFF.md",
+    "size": 272
+  },
+  {
+    "path": "stages/01-project-foundation/context/SCOPE.md",
+    "size": 273
+  },
+  {
+    "path": "stages/01-project-foundation/context/TASK.md",
+    "size": 245
+  },
+  {
+    "path": "stages/01-project-foundation/evidence/logs/.gitkeep",
+    "size": 0
+  },
+  {
+    "path": "stages/01-project-foundation/evidence/security-checks.md",
+    "size": 28
+  },
+  {
+    "path": "stages/01-project-foundation/evidence/test-results.md",
+    "size": 25
+  },
+  {
+    "path": "stages/01-project-foundation/stage.yaml",
+    "size": 882
+  },
+  {
+    "path": "stages/02-launcher-shell/context/ACCEPTANCE.md",
+    "size": 366
+  },
+  {
+    "path": "stages/02-launcher-shell/context/AGENT.md",
+    "size": 500
+  },
+  {
+    "path": "stages/02-launcher-shell/context/FILES.md",
+    "size": 307
+  },
+  {
+    "path": "stages/02-launcher-shell/context/HANDOFF.md",
+    "size": 268
+  },
+  {
+    "path": "stages/02-launcher-shell/context/SCOPE.md",
+    "size": 227
+  },
+  {
+    "path": "stages/02-launcher-shell/context/TASK.md",
+    "size": 221
+  },
+  {
+    "path": "stages/02-launcher-shell/evidence/logs/.gitkeep",
+    "size": 0
+  },
+  {
+    "path": "stages/02-launcher-shell/evidence/security-checks.md",
+    "size": 28
+  },
+  {
+    "path": "stages/02-launcher-shell/evidence/test-results.md",
+    "size": 25
+  },
+  {
+    "path": "stages/02-launcher-shell/stage.yaml",
+    "size": 723
+  },
+  {
+    "path": "stages/03-parent-authentication/context/ACCEPTANCE.md",
+    "size": 444
+  },
+  {
+    "path": "stages/03-parent-authentication/context/AGENT.md",
+    "size": 498
+  },
+  {
+    "path": "stages/03-parent-authentication/context/FILES.md",
+    "size": 355
+  },
+  {
+    "path": "stages/03-parent-authentication/context/HANDOFF.md",
+    "size": 275
+  },
+  {
+    "path": "stages/03-parent-authentication/context/SCOPE.md",
+    "size": 242
+  },
+  {
+    "path": "stages/03-parent-authentication/context/TASK.md",
+    "size": 212
+  },
+  {
+    "path": "stages/03-parent-authentication/evidence/logs/.gitkeep",
+    "size": 0
+  },
+  {
+    "path": "stages/03-parent-authentication/evidence/security-checks.md",
+    "size": 28
+  },
+  {
+    "path": "stages/03-parent-authentication/evidence/test-results.md",
+    "size": 25
+  },
+  {
+    "path": "stages/03-parent-authentication/stage.yaml",
+    "size": 796
+  },
+  {
+    "path": "stages/04-device-owner/context/ACCEPTANCE.md",
+    "size": 417
+  },
+  {
+    "path": "stages/04-device-owner/context/AGENT.md",
+    "size": 511
+  },
+  {
+    "path": "stages/04-device-owner/context/FILES.md",
+    "size": 350
+  },
+  {
+    "path": "stages/04-device-owner/context/HANDOFF.md",
+    "size": 266
+  },
+  {
+    "path": "stages/04-device-owner/context/SCOPE.md",
+    "size": 211
+  },
+  {
+    "path": "stages/04-device-owner/context/TASK.md",
+    "size": 234
+  },
+  {
+    "path": "stages/04-device-owner/evidence/logs/.gitkeep",
+    "size": 0
+  },
+  {
+    "path": "stages/04-device-owner/evidence/security-checks.md",
+    "size": 28
+  },
+  {
+    "path": "stages/04-device-owner/evidence/test-results.md",
+    "size": 25
+  },
+  {
+    "path": "stages/04-device-owner/stage.yaml",
+    "size": 746
+  },
+  {
+    "path": "stages/05-child-lockdown/context/ACCEPTANCE.md",
+    "size": 463
+  },
+  {
+    "path": "stages/05-child-lockdown/context/AGENT.md",
+    "size": 521
+  },
+  {
+    "path": "stages/05-child-lockdown/context/FILES.md",
+    "size": 395
+  },
+  {
+    "path": "stages/05-child-lockdown/context/HANDOFF.md",
+    "size": 268
+  },
+  {
+    "path": "stages/05-child-lockdown/context/SCOPE.md",
+    "size": 245
+  },
+  {
+    "path": "stages/05-child-lockdown/context/TASK.md",
+    "size": 242
+  },
+  {
+    "path": "stages/05-child-lockdown/evidence/logs/.gitkeep",
+    "size": 0
+  },
+  {
+    "path": "stages/05-child-lockdown/evidence/security-checks.md",
+    "size": 28
+  },
+  {
+    "path": "stages/05-child-lockdown/evidence/test-results.md",
+    "size": 25
+  },
+  {
+    "path": "stages/05-child-lockdown/stage.yaml",
+    "size": 808
+  },
+  {
+    "path": "stages/06-app-management/context/ACCEPTANCE.md",
+    "size": 429
+  },
+  {
+    "path": "stages/06-app-management/context/AGENT.md",
+    "size": 525
+  },
+  {
+    "path": "stages/06-app-management/context/FILES.md",
+    "size": 369
+  },
+  {
+    "path": "stages/06-app-management/context/HANDOFF.md",
+    "size": 268
+  },
+  {
+    "path": "stages/06-app-management/context/SCOPE.md",
+    "size": 278
+  },
+  {
+    "path": "stages/06-app-management/context/TASK.md",
+    "size": 246
+  },
+  {
+    "path": "stages/06-app-management/evidence/logs/.gitkeep",
+    "size": 0
+  },
+  {
+    "path": "stages/06-app-management/evidence/security-checks.md",
+    "size": 28
+  },
+  {
+    "path": "stages/06-app-management/evidence/test-results.md",
+    "size": 25
+  },
+  {
+    "path": "stages/06-app-management/stage.yaml",
+    "size": 793
+  },
+  {
+    "path": "stages/07-parent-dashboard/context/ACCEPTANCE.md",
+    "size": 411
+  },
+  {
+    "path": "stages/07-parent-dashboard/context/AGENT.md",
+    "size": 508
+  },
+  {
+    "path": "stages/07-parent-dashboard/context/FILES.md",
+    "size": 360
+  },
+  {
+    "path": "stages/07-parent-dashboard/context/HANDOFF.md",
+    "size": 270
+  },
+  {
+    "path": "stages/07-parent-dashboard/context/SCOPE.md",
+    "size": 217
+  },
+  {
+    "path": "stages/07-parent-dashboard/context/TASK.md",
+    "size": 227
+  },
+  {
+    "path": "stages/07-parent-dashboard/evidence/logs/.gitkeep",
+    "size": 0
+  },
+  {
+    "path": "stages/07-parent-dashboard/evidence/security-checks.md",
+    "size": 28
+  },
+  {
+    "path": "stages/07-parent-dashboard/evidence/test-results.md",
+    "size": 25
+  },
+  {
+    "path": "stages/07-parent-dashboard/stage.yaml",
+    "size": 751
+  },
+  {
+    "path": "stages/08-lifecycle-recovery/context/ACCEPTANCE.md",
+    "size": 406
+  },
+  {
+    "path": "stages/08-lifecycle-recovery/context/AGENT.md",
+    "size": 529
+  },
+  {
+    "path": "stages/08-lifecycle-recovery/context/FILES.md",
+    "size": 365
+  },
+  {
+    "path": "stages/08-lifecycle-recovery/context/HANDOFF.md",
+    "size": 272
+  },
+  {
+    "path": "stages/08-lifecycle-recovery/context/SCOPE.md",
+    "size": 287
+  },
+  {
+    "path": "stages/08-lifecycle-recovery/context/TASK.md",
+    "size": 246
+  },
+  {
+    "path": "stages/08-lifecycle-recovery/evidence/logs/.gitkeep",
+    "size": 0
+  },
+  {
+    "path": "stages/08-lifecycle-recovery/evidence/security-checks.md",
+    "size": 28
+  },
+  {
+    "path": "stages/08-lifecycle-recovery/evidence/test-results.md",
+    "size": 25
+  },
+  {
+    "path": "stages/08-lifecycle-recovery/stage.yaml",
+    "size": 803
+  },
+  {
+    "path": "stages/09-local-data-privacy/context/ACCEPTANCE.md",
+    "size": 358
+  },
+  {
+    "path": "stages/09-local-data-privacy/context/AGENT.md",
+    "size": 538
+  },
+  {
+    "path": "stages/09-local-data-privacy/context/FILES.md",
+    "size": 366
+  },
+  {
+    "path": "stages/09-local-data-privacy/context/HANDOFF.md",
+    "size": 272
+  },
+  {
+    "path": "stages/09-local-data-privacy/context/SCOPE.md",
+    "size": 276
+  },
+  {
+    "path": "stages/09-local-data-privacy/context/TASK.md",
+    "size": 255
+  },
+  {
+    "path": "stages/09-local-data-privacy/evidence/logs/.gitkeep",
+    "size": 0
+  },
+  {
+    "path": "stages/09-local-data-privacy/evidence/security-checks.md",
+    "size": 28
+  },
+  {
+    "path": "stages/09-local-data-privacy/evidence/test-results.md",
+    "size": 25
+  },
+  {
+    "path": "stages/09-local-data-privacy/stage.yaml",
+    "size": 820
+  },
+  {
+    "path": "stages/10-automated-testing/context/ACCEPTANCE.md",
+    "size": 414
+  },
+  {
+    "path": "stages/10-automated-testing/context/AGENT.md",
+    "size": 522
+  },
+  {
+    "path": "stages/10-automated-testing/context/FILES.md",
+    "size": 337
+  },
+  {
+    "path": "stages/10-automated-testing/context/HANDOFF.md",
+    "size": 271
+  },
+  {
+    "path": "stages/10-automated-testing/context/SCOPE.md",
+    "size": 260
+  },
+  {
+    "path": "stages/10-automated-testing/context/TASK.md",
+    "size": 240
+  },
+  {
+    "path": "stages/10-automated-testing/evidence/logs/.gitkeep",
+    "size": 0
+  },
+  {
+    "path": "stages/10-automated-testing/evidence/security-checks.md",
+    "size": 28
+  },
+  {
+    "path": "stages/10-automated-testing/evidence/test-results.md",
+    "size": 25
+  },
+  {
+    "path": "stages/10-automated-testing/stage.yaml",
+    "size": 767
+  },
+  {
+    "path": "stages/11-security-validation/context/ACCEPTANCE.md",
+    "size": 510
+  },
+  {
+    "path": "stages/11-security-validation/context/AGENT.md",
+    "size": 551
+  },
+  {
+    "path": "stages/11-security-validation/context/FILES.md",
+    "size": 390
+  },
+  {
+    "path": "stages/11-security-validation/context/HANDOFF.md",
+    "size": 273
+  },
+  {
+    "path": "stages/11-security-validation/context/SCOPE.md",
+    "size": 244
+  },
+  {
+    "path": "stages/11-security-validation/context/TASK.md",
+    "size": 267
+  },
+  {
+    "path": "stages/11-security-validation/evidence/logs/.gitkeep",
+    "size": 0
+  },
+  {
+    "path": "stages/11-security-validation/evidence/security-checks.md",
+    "size": 28
+  },
+  {
+    "path": "stages/11-security-validation/evidence/test-results.md",
+    "size": 25
+  },
+  {
+    "path": "stages/11-security-validation/stage.yaml",
+    "size": 824
+  },
+  {
+    "path": "stages/12-release-build/context/ACCEPTANCE.md",
+    "size": 420
+  },
+  {
+    "path": "stages/12-release-build/context/AGENT.md",
+    "size": 527
+  },
+  {
+    "path": "stages/12-release-build/context/FILES.md",
+    "size": 329
+  },
+  {
+    "path": "stages/12-release-build/context/HANDOFF.md",
+    "size": 267
+  },
+  {
+    "path": "stages/12-release-build/context/SCOPE.md",
+    "size": 231
+  },
+  {
+    "path": "stages/12-release-build/context/TASK.md",
+    "size": 249
+  },
+  {
+    "path": "stages/12-release-build/evidence/logs/.gitkeep",
+    "size": 0
+  },
+  {
+    "path": "stages/12-release-build/evidence/security-checks.md",
+    "size": 28
+  },
+  {
+    "path": "stages/12-release-build/evidence/test-results.md",
+    "size": 25
+  },
+  {
+    "path": "stages/12-release-build/stage.yaml",
+    "size": 772
+  },
+  {
+    "path": "stages/README.md",
+    "size": 1988
+  },
+  {
+    "path": "templates/stage/context/ACCEPTANCE.md",
+    "size": 59
+  },
+  {
+    "path": "templates/stage/context/AGENT.md",
+    "size": 116
+  },
+  {
+    "path": "templates/stage/context/FILES.md",
+    "size": 43
+  },
+  {
+    "path": "templates/stage/context/HANDOFF.md",
+    "size": 118
+  },
+  {
+    "path": "templates/stage/context/SCOPE.md",
+    "size": 86
+  },
+  {
+    "path": "templates/stage/context/TASK.md",
+    "size": 48
+  },
+  {
+    "path": "templates/stage/evidence/logs/.gitkeep",
+    "size": 0
+  },
+  {
+    "path": "templates/stage/evidence/security-checks.md",
+    "size": 28
+  },
+  {
+    "path": "templates/stage/evidence/test-results.md",
+    "size": 25
+  },
+  {
+    "path": "templates/stage/stage.yaml",
+    "size": 268
+  }
+]

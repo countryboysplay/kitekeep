@@ -1,0 +1,5 @@
+# Safe template only. Never commit real signing credentials.
+storeFile=C:\path\to\kitekeep-release.jks
+storePassword=REPLACE_ME
+keyAlias=REPLACE_ME
+keyPassword=REPLACE_ME

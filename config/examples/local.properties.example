@@ -1,0 +1,2 @@
+# Copy to src/local.properties only when needed. Never commit src/local.properties.
+sdk.dir=C:\Users\YOUR_USER\AppData\Local\Android\Sdk

@@ -1,0 +1,28 @@
+stage: 07-parent-dashboard
+status: not_started
+depends_on:
+  - 06-app-management
+implementation_agent_default: claude-code
+review_agent_default: codex
+reviewer_must_differ: true
+personas:
+  - agents/active/engineering-mobile-app-builder.md
+  - agents/active/design-ux-architect.md
+  - agents/active/design-ui-designer.md
+  - agents/active/design-inclusive-visuals-specialist.md
+read:
+  - src/feature/parent/
+  - src/feature/app-management/
+  - src/feature/device-policy/
+  - src/core/ui/
+modify:
+  - src/feature/parent/
+  - src/core/ui/
+  - src/feature/settings/
+  - stages/07-parent-dashboard/
+forbidden:
+  - bypassing ParentAuthorization
+  - cloud account requirement
+  - future game content
+validation_commands:
+  - cd src; .\gradlew.bat test lint

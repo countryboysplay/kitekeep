@@ -1,0 +1,29 @@
+stage: 00-dev-environment
+status: in_progress
+depends_on:
+  []
+implementation_agent_default: claude-code
+review_agent_default: codex
+reviewer_must_differ: true
+personas:
+  - agents/active/engineering-developer-tooling-engineer.md
+  - agents/active/terminal-integration-specialist.md
+  - agents/active/engineering-devops-automator.md
+  - agents/active/engineering-git-workflow-master.md
+read:
+  - prerequisites.txt
+  - scripts/setup-dev-environment.ps1
+  - scripts/verify-dev-environment.ps1
+  - docs/architecture/ADR-001-android-sdk-baseline.md
+modify:
+  - prerequisites.txt
+  - scripts/
+  - config/examples/
+  - stages/00-dev-environment/
+  - PROJECT_STATE.yaml
+forbidden:
+  - src/ application implementation
+  - later stage context folders
+  - security policy implementation
+validation_commands:
+  - powershell -ExecutionPolicy Bypass -File scripts/verify-dev-environment.ps1

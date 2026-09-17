@@ -1,0 +1,35 @@
+# Android / Gradle
+.gradle/
+**/build/
+**/.cxx/
+**/.externalNativeBuild/
+local.properties
+captures/
+.externalNativeBuild/
+
+# Android Studio / IntelliJ
+.idea/
+*.iml
+
+# Local machine configuration and secrets
+.env
+.env.*
+!.env.example
+local/
+*.jks
+*.keystore
+*.p12
+*.pfx
+signing.properties
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
+
+# Generated evidence logs that may contain machine-specific paths
+stages/*/evidence/logs/*.log
+stages/*/evidence/logs/*.txt
+
+# Temporary agent extraction cache
+agents/cache/

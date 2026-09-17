@@ -1,0 +1,27 @@
+stage: 04-device-owner
+status: not_started
+depends_on:
+  - 03-parent-authentication
+implementation_agent_default: claude-code
+review_agent_default: codex
+reviewer_must_differ: true
+personas:
+  - agents/active/engineering-mobile-app-builder.md
+  - agents/active/security-architect.md
+  - agents/active/security-appsec-engineer.md
+  - agents/active/engineering-software-architect.md
+read:
+  - src/core/security/
+  - src/feature/device-policy/
+  - docs/architecture/ADR-004-security-model.md
+modify:
+  - src/feature/device-policy/
+  - src/app/
+  - docs/security/
+  - stages/04-device-owner/
+forbidden:
+  - full child lockdown rules
+  - future game code
+  - cloud device management dependency
+validation_commands:
+  - cd src; .\gradlew.bat test lint

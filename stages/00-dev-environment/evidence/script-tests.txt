@@ -1,0 +1,16 @@
+﻿PASS: setup-dev-environment.ps1 parses in Windows PowerShell
+PASS: verify-dev-environment.ps1 parses in Windows PowerShell
+PASS: setup accepts successful native commands with stderr warnings
+PASS: setup rejects native nonzero exits
+PASS: successful command with stderr passes
+PASS: installed command with nonzero exit fails
+PASS: missing executable fails
+PASS: named AVD without configuration fails
+PASS: wrong API image fails even with correct AVD name
+PASS: correct API 36 Google APIs x86_64 AVD passes
+PASS: failed avdmanager cannot pass from partial output
+PASS: elevation waits and returns child status (static check)
+PASS: AVD creation does not overwrite existing definitions (static check)
+PASS: PATH matching distinguishes prefixes and does not duplicate entries
+PASS: PATH comparison ignores case and trailing separator
+PASS: empty user PATH is initialized

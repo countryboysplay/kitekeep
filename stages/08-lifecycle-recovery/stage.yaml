@@ -1,0 +1,29 @@
+stage: 08-lifecycle-recovery
+status: not_started
+depends_on:
+  - 07-parent-dashboard
+implementation_agent_default: claude-code
+review_agent_default: codex
+reviewer_must_differ: true
+personas:
+  - agents/active/engineering-mobile-app-builder.md
+  - agents/active/engineering-sre.md
+  - agents/active/security-incident-responder.md
+  - agents/active/engineering-code-reviewer.md
+read:
+  - src/app/
+  - src/feature/device-policy/
+  - src/feature/parent/
+  - docs/security/
+modify:
+  - src/app/
+  - src/feature/device-policy/
+  - src/feature/parent/
+  - docs/security/
+  - stages/08-lifecycle-recovery/
+forbidden:
+  - silent permanent lockout without documented parental recovery
+  - unsafe automatic policy relaxation
+  - future game implementation
+validation_commands:
+  - cd src; .\gradlew.bat test lint

@@ -1,0 +1,27 @@
+stage: 11-security-validation
+status: not_started
+depends_on:
+  - 10-automated-testing
+implementation_agent_default: claude-code
+review_agent_default: codex
+reviewer_must_differ: true
+personas:
+  - agents/active/security-penetration-tester.md
+  - agents/active/security-ai-generated-code-auditor.md
+  - agents/active/security-appsec-engineer.md
+  - agents/active/security-architect.md
+read:
+  - src/
+  - docs/security/
+  - stages/05-child-lockdown/context/HANDOFF.md
+  - stages/08-lifecycle-recovery/context/HANDOFF.md
+modify:
+  - docs/security/
+  - stages/11-security-validation/
+  - src/ only for explicitly approved remediations
+forbidden:
+  - declaring secure without evidence
+  - hiding unresolved escape paths
+  - testing against real child data
+validation_commands:
+  - cd src; .\gradlew.bat test lint connectedCheck

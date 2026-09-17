@@ -1,0 +1,51 @@
+name: KiteKeep CI
+
+on:
+  push:
+    branches: [main, "stage/**"]
+  pull_request:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v7
+
+      - name: Set up Java 17
+        uses: actions/setup-java@v6
+        with:
+          distribution: temurin
+          java-version: '17'
+
+      - name: Validate repository scaffold
+        shell: bash
+        run: |
+          set -euo pipefail
+          test -f AGENTS.md
+          test -f PROJECT_STATE.yaml
+          test -f prerequisites.txt
+          test -f stages/00-dev-environment/stage.yaml
+
+      - name: Install Android API 36 SDK packages
+        if: ${{ hashFiles('src/gradlew') != '' }}
+        shell: bash
+        run: |
+          yes | sdkmanager --licenses >/dev/null || true
+          sdkmanager "platforms;android-36" "build-tools;36.0.0" "platform-tools"
+
+      - name: Build, unit test, and lint Android project
+        if: ${{ hashFiles('src/gradlew') != '' }}
+        working-directory: src
+        shell: bash
+        run: |
+          chmod +x gradlew
+          ./gradlew --no-daemon test lint
+
+      - name: Stage 00 notice
+        if: ${{ hashFiles('src/gradlew') == '' }}
+        run: echo "Android project is intentionally created in Stage 01. Scaffold validation only."

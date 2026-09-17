@@ -1,0 +1,28 @@
+stage: 03-parent-authentication
+status: not_started
+depends_on:
+  - 02-launcher-shell
+implementation_agent_default: claude-code
+review_agent_default: codex
+reviewer_must_differ: true
+personas:
+  - agents/active/security-appsec-engineer.md
+  - agents/active/engineering-mobile-app-builder.md
+  - agents/active/engineering-identity-access-engineer.md
+  - agents/active/security-ai-generated-code-auditor.md
+read:
+  - src/core/security/
+  - src/feature/parent/
+  - docs/architecture/ADR-004-security-model.md
+modify:
+  - src/core/security/
+  - src/feature/parent/
+  - stages/03-parent-authentication/
+  - docs/security/
+forbidden:
+  - plaintext PIN storage
+  - Device Owner provisioning
+  - external app allowlisting
+  - cloud authentication
+validation_commands:
+  - cd src; .\gradlew.bat test lint

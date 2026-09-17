@@ -1,0 +1,28 @@
+stage: 02-launcher-shell
+status: not_started
+depends_on:
+  - 01-project-foundation
+implementation_agent_default: claude-code
+review_agent_default: codex
+reviewer_must_differ: true
+personas:
+  - agents/active/engineering-mobile-app-builder.md
+  - agents/active/design-ux-architect.md
+  - agents/active/design-ui-designer.md
+  - agents/active/design-inclusive-visuals-specialist.md
+read:
+  - src/app/
+  - src/core/ui/
+  - docs/product/launcher-v1.md
+modify:
+  - src/app/
+  - src/core/ui/
+  - src/feature/child-home/
+  - stages/02-launcher-shell/
+forbidden:
+  - Device Owner enforcement
+  - parent PIN cryptography
+  - app allowlist policy
+  - future educational games
+validation_commands:
+  - cd src; .\gradlew.bat test lint

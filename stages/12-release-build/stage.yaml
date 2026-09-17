@@ -1,0 +1,29 @@
+stage: 12-release-build
+status: not_started
+depends_on:
+  - 11-security-validation
+implementation_agent_default: claude-code
+review_agent_default: codex
+reviewer_must_differ: true
+personas:
+  - agents/active/engineering-mobile-release-engineer.md
+  - agents/active/engineering-git-workflow-master.md
+  - agents/active/engineering-technical-writer.md
+  - agents/active/testing-test-results-analyzer.md
+read:
+  - src/
+  - docs/architecture/
+  - docs/security/
+  - config/examples/
+modify:
+  - src/
+  - scripts/release/
+  - docs/release/
+  - stages/12-release-build/
+  - .github/workflows/
+forbidden:
+  - committing release signing secrets
+  - automatic production merge
+  - skipping security blockers
+validation_commands:
+  - cd src; .\gradlew.bat test lint assembleRelease
