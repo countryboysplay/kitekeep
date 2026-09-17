@@ -1,9 +1,9 @@
-project: KiteKeep
+﻿project: KiteKeep
 repository: countryboysplay/kitekeep
 application_id: com.countryboysplay.kitekeep
 active_stage: 00-dev-environment
 active_branch: stage/00-dev-environment
-status: in_progress
+status: awaiting_manual_merge
 implementation_agent_default: claude-code
 review_agent_default: codex
 manual_merge_required: true

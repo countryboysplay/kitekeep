@@ -1,5 +1,5 @@
-stage: 00-dev-environment
-status: in_progress
+﻿stage: 00-dev-environment
+status: ready_for_merge
 depends_on:
   []
 implementation_agent_default: claude-code
